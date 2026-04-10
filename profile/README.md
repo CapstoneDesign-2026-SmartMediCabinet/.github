@@ -2,7 +2,6 @@
 
 조직 첫 페이지의 소개글입니다. 저희는 메모장으로 사용하면 될 것 같습니다.
 
-[Mainactivity.kt](app/src/main/java/com/inu/capstone_tablet/MainActivity.kt)  
 
 <details>
     <summary> MarkDown 문법 정리 : 참고용</summary>
