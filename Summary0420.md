@@ -98,7 +98,7 @@
             }
             ```
             C언어 버전으로는  
-            ```cpp
+            ```c
             enum TotalStatus {
             EMPTY,   // 0
             LOW,     // 1
@@ -106,11 +106,11 @@
             };  
 
             TotalStatus currentStatus = ENOUGH;
-                ```
+             ```
             - 뭔지 잘 모르겠으면 그냥 정수로 적어도 무방함. 결국 전송하는 값들은 0 1 2 이런 정수일거기 때문에
             - 아니면 앞서 언급한 전처리 매크로(#define) 활용해도 됨.
             - 들어갈 케이스들 소개
-                ```cpp
+                ```c
 
                 #define EMPTY 0
                 #define LOW 1
@@ -151,7 +151,7 @@ BTSerial.println(BTstatus); // 0
 ```
 - 전송 시 값들 약속
 
-```cpp
+```c
 /* --- 보내는 값이 뭔지에 주목하세요. 변수명은 아두이노 자유입니다 --*/
 // 1. 장비 이름 : 한 글자 알파벳으로
 #define DEV_ADMIN 'A'
