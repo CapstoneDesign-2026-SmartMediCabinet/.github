@@ -153,6 +153,7 @@ BTSerial.println(BTstatus); // 0
 
 ```c
 /* --- 보내는 값이 뭔지에 주목하세요. 변수명은 아두이노 자유입니다 --*/
+#include <stdio.h>
 // 1. 장비 이름 : 한 글자 알파벳으로
 #define DEV_ADMIN 'A'
 #define DEV_USER  'U'
@@ -161,6 +162,7 @@ BTSerial.println(BTstatus); // 0
 #define DEV_HUMID 'H'
 #define DEV_FAN   'F'
 
+int main() {
 // 2. 장비 번호 : 정수
 int DEV_NUM = 0;// 0~2까지. 사용자 함은 더 늘릴 수도 있겠죠
 
@@ -173,4 +175,6 @@ int DEV_status = 0; // 0~2까지.
 // 2 = enough
 float TempValue = 24.5;
 float HumidValue = 61.0;
+return 0;
+}
         
