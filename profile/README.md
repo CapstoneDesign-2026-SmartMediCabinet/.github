@@ -1,8 +1,20 @@
-## 캡스톤디자인 조직 readme
+## 스마트 약품 관리 시스템
 
-조직 첫 페이지의 소개글입니다. 저희는 메모장으로 사용하면 될 것 같습니다.
+스마트 약품 관리 시스템은 2026년 진행한 인천대학교 학부생 3인의 캡스턴디자인 프로젝트입니다.
+이 시스템은 사용자(환자)와 관리자(의료인)의 편의를 도와, 요양원 등 시설에서 환자의 원활한 복약 지도를 돕고
+나아가 그 복약을 스마트 약품장을 포함한 시스템을 통해 간편히 진행하는 것을 목표로 합니다.
 
+프로젝트는 약품장과의 상호작용을 담당하는 태블릿용 어플리케이션과, 약품장의 하드웨어부를 제어하는 아두이노,
+웹캠을 통해 약품 등록을 자동화하는 Raspberry Pi와 이것들을 다루는 백엔드 서버로 이루어져 있습니다.
 
+### 시스템 세부 사양
+- 약품장 관리용 태블릿 어플_ Android app(developed by Android Studio) : [Android](https://github.com/CapstoneDesign-2026-SmartMediCabinet/Capstone_Tablet)  
+- 아두이노 : [Arduino](https://github.com/CapstoneDesign-2026-SmartMediCabinet/Repo-Arduino)
+- 웹캠 및 Ai Server : [python Flask](https://github.com/CapstoneDesign-2026-SmartMediCabinet/Repo-Rasberry)
+- 로그인 및 메인 서버 : [Node.js](https://github.com/CapstoneDesign-2026-SmartMediCabinet/Server)
+- 로컬 DB : mySQL; local 서버였기 때문에 repository 활용하지 않음
+
+---
 <details>
     <summary> MarkDown 문법 정리 : 참고용</summary>
     
